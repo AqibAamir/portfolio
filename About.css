@@ -1,0 +1,150 @@
+/* Body styles */
+body {
+  background-color: #282c34; /* Light gray background color */
+  margin: 0; /* Remove default margin */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Set font family for the body */
+  color: #333; /* Dark gray text color */
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #1a1d24; /* Primary blue background color */
+  overflow: hidden; /* Hide overflowing content */
+  height: 72px; /* Set the height of the navigation bar */
+}
+
+nav a {
+  float: right; /* Float the navigation links to the right */
+  color: #fff; /* White text color */
+  text-align: center; /* Center-align text */
+  padding: 25px 20px; /* Add padding to the navigation links */
+  text-decoration: none; /* Remove text decoration */
+  font-weight: bold; /* Set font weight to bold */
+  font-size: 18px; /* Set font size */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Set font family */
+}
+
+nav a:hover {
+  background-color: #483d5c; /* Darken background color on hover */
+}
+
+nav a.active {
+  background-color: #007bff; /* Dark blue background color */
+}
+
+.logo {
+  position: absolute; /* Change to absolute positioning */
+  font-size: 29px;
+  color: #007bff;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  top: -8px; /* Adjust top and left values as needed */
+  left: 18px;
+}
+
+@keyframes borderAnimation {
+  0%    { border-color: rgb(0, 80, 170); }
+  10%   { border-color: rgb(30, 50, 150); }
+  20%   { border-color: rgb(20, 40, 120); }
+  30%   { border-color: rgb(10, 30, 90); }
+  40%   { border-color: rgb(0, 20, 70); }
+  50%   { border-color: rgb(10, 30, 90); }
+  60%   { border-color: rgb(20, 40, 120); }
+  70%   { border-color: rgb(30, 50, 150); }
+  80%   { border-color: rgb(0, 80, 170); }
+  90%   { border-color: rgb(0, 50, 130); }
+  100%  { border-color: rgb(0, 80, 170); }
+}
+
+section {
+  background-color:#1f2127; /* White background color */
+  border:none; /* Blue border */
+  border-radius: 20px; /* Add border radius */
+  padding: 20px; /* Add padding */
+  margin: 50px; /* Add margin */
+  font-size: 30px; /* Set font size */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Set font family */
+  color: #ffffff; /* Primary White text color */
+}
+
+.Logos {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.Abouts {
+  font-size: 40px;
+}
+
+ul{
+  font-size:40x;
+}
+
+.Hobbies {
+  background-color: #1f2127; /* White background color */
+  border: 7px solid #007bff; /* Blue border */
+  border-radius: 20px; /* Add border radius */
+  padding: 20px; /* Add padding */
+  margin: 50px; /* Add margin */
+  font-size: 30px; /* Set font size */
+  font-family:"Indie Flower", cursive; /* Set font family */
+  color: #ffffff; /* Primary White text color */
+  animation-name:borderAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+h2 {
+  font-family:'Segoe UI', Roboto, Arial, sans-serif; /* Set font family */
+}
+
+.interests {
+  text-decoration: underline; /* Underline the name */
+  font-size: 70px; /* Set font size */
+  color: #ffffff; /* Primary White text color */
+  text-align: center;
+  font-family:"Indie Flower", cursive;
+}
+
+footer {
+  background-color: #1a1d24; /* Primary blue background color */
+  color: #fff; /* White text color */
+  font-family: "Indie Flower", cursive;
+  text-align: center; /* Center-align text */
+  padding-bottom: 11px;
+}
+
+.copy {
+  font-size: 30px; /* Set font size */
+  position: relative;
+  bottom: -15px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .logo {
+      position: relative; /* Change to relative positioning */
+      top: auto;
+      left: auto;
+  }
+
+  nav {
+      height: auto; /* Auto height for smaller screens */
+  }
+
+  nav a {
+      float: none; /* Remove float for smaller screens */
+      display: block; /* Change display to block for stacked links */
+      padding: 15px 0; /* Adjust padding for stacked links */
+      text-align: center; /* Center-align text */
+  }
+
+  section,
+  .Hobbies {
+      margin: 20px; /* Adjust margin for smaller screens */
+  }
+}
+

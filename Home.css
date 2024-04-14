@@ -1,0 +1,189 @@
+/* Body styles */
+body {
+  background-color:#282c34; /* Light gray background color */
+  margin: 0; /* Remove default margin */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Set font family for the body */
+  color: #333; /* Dark gray text color */
+  
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #1a1d24; /* Primary blue background color */
+  overflow: hidden; /* Hide overflowing content */
+  height: 72px; /* Set the height of the navigation bar */
+}
+
+nav a {
+  float: right; /* Float the navigation links to the right */
+  color: #fff; /* White text color */
+  text-align: center; /* Center-align text */
+  padding: 25px 20px; /* Add padding to the navigation links */
+  text-decoration: none; /* Remove text decoration */
+  font-weight: bold; /* Set font weight to bold */
+  font-size: 18px; /* Set font size */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Set font family */
+}
+
+nav a:hover {
+  background-color: #483d5c; /* Darken background color on hover */
+}
+
+nav a.active {
+  background-color: #007bff; /* Dark blue background color */
+}
+
+.logo {
+  position: absolute; /* Change to absolute positioning */
+  font-size: 29px;
+  color: #007bff;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  top: -8px; /* Adjust top and left values as needed */
+  left: 18px;
+  
+}
+@keyframes borderAnimation {
+  0%    { border-color: rgb(0, 80, 170); }
+  10%   { border-color: rgb(30, 50, 150); }
+  20%   { border-color: rgb(20, 40, 120); }
+  30%   { border-color: rgb(10, 30, 90); }
+  40%   { border-color: rgb(0, 20, 70); }
+  50%   { border-color: rgb(10, 30, 90); }
+  60%   { border-color: rgb(20, 40, 120); }
+  70%   { border-color: rgb(30, 50, 150); }
+  80%   { border-color: rgb(0, 80, 170); }
+  90%   { border-color: rgb(0, 50, 130); }
+  100%  { border-color: rgb(0, 80, 170); }
+}
+
+
+
+
+
+
+/* Section styles */
+section {
+  background-color: #1f2127; /* White background color */
+  border: 7px solid #007bff; /* Blue border */
+  border-radius: 20px; /* Add border radius */
+  padding: 20px; /* Add padding */
+  margin: 50px; /* Add margin */
+  margin-top: 75px;
+  font-size: 30px; /* Set font size */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; /* Set font family */
+  color: #ffffff; /* Primary White text color */
+  animation-name:borderAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+}
+
+.name {
+  text-decoration: underline; /* Underline the name */
+  font-size: 70px; /* Set font size */
+  color: #ffffff; /* Primary White text color */
+  
+}
+
+.names {
+  margin-top: 10px; /* Set margin top for names */
+  font-size: 50px; /* Set font size */
+}
+
+/* Contact form styles */
+.contact {
+  background-color: #1a1d24; /* Light gray background color */
+  border-radius: 20px; /* Add border radius */
+  padding: 40px; /* Add padding */
+  margin-top: 60px; /* Add margin top */
+  border: none;
+}
+
+.contact h2 {
+  text-align: center; /* Center-align heading */
+  font-size: 70px; /* Set font size */
+  margin-bottom: 30px; /* Add margin bottom */
+  text-decoration: underline; /* Underline heading */
+  font-family:"Indie Flower", cursive; /* Set font family */
+  border: none;
+}
+
+.contact .form-group {
+  margin-bottom: 30px; /* Add margin bottom for form group */
+}
+
+.contact label {
+  display: block; /* Set display to block for labels */
+  font-weight: bold; /* Set font weight to bold */
+  margin-bottom: 10px; /* Add margin bottom for labels */
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%; /* Set width to 100% */
+  padding: 15px; /* Add padding */
+  border:none; /* Remove border */
+  border-radius: 10px; /* Add border radius */
+  font-size: 18px; /* Set font size */
+  margin-top: 10px; /* Add margin top */
+  background-color: #282c34; /* Dark blue-gray background color */
+  color: #ffffff; /* White text color */
+  border: 2px solid #007bff; /* Blue border */
+  position: relative;
+  right: 20px;
+  
+}
+
+.contact textarea {
+  height: 150px; /* Set height for textarea */
+}
+
+.contact button {
+  position: relative; /* Set position to relative */
+  right: 0px; /* Move button to the right */
+  width: 100%; /* Set width to 100% */
+  padding: 15px; /* Add padding */
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 10px; /* Add border radius */
+  cursor: pointer; /* Set cursor to pointer */
+  font-size: 22px; /* Set font size */
+  transition: background-color 0.3s ease; /* Add transition effect */
+  position: relative;
+  right:3px;
+  
+}
+
+.contact button:hover {
+  background-color: #0056b3; /* Darken background color on hover */
+}
+
+footer {
+  background-color: #1a1d24; /* Primary blue background color */
+  color: #fff; /* White text color */
+  font-family:"Indie Flower", cursive;
+  text-align: center; /* Center-align text */
+  padding-bottom: 11px;
+  
+  
+}
+
+.copy {
+  font-size: 30px; /* Set font size */
+  position: relative;
+  bottom:-15px;
+}
+
+
+
+
+
+
+
+
+
+
